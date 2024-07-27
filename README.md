@@ -9,11 +9,8 @@ El proyecto contiene los siguientes archivos y carpetas:
 - `Brain_Tumor_Classification.ipynb`: Notebook de Jupyter que contiene el código para la clasificación de tumores cerebrales.
 - `model.keras`: Archivo del modelo Keras guardado en formato `.keras`.
 - `training_frozencnn.jpeg`: Imagen utilizada para la formación o referencia.
-- `model_weights/`: Carpeta que contiene los archivos de pesos del modelo entrenado.
-  - `vgg19_model_01.weights.h5`: Pesos del primer modelo VGG19.
-  - `vgg19_model_01.h5`: Modelo VGG19 guardado en formato HDF5.
-  - `vgg19_model_02.h5`: Segundo modelo VGG19 guardado en formato HDF5.
-  - `vgg_unfrozen.h5`: Modelo VGG19 con algunas capas no congeladas.
+- `model_weights/`: Se puede descargar los weights de aqui:
+  - https://drive.google.com/drive/folders/1NRUbyFtGFtVBXen4beog_zjSY5mljDed
 - `tumorous_and_nontumorous/`: Carpeta que contiene datos procesados con imágenes de tumores y no tumores organizadas en subcarpetas de entrenamiento, prueba y validación.
   - `train/`: Contiene imágenes de entrenamiento clasificadas en `yes` y `no`.
   - `test/`: Contiene imágenes de prueba clasificadas en `yes` y `no`.
